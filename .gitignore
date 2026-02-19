@@ -1,0 +1,66 @@
+# =========================
+# Backend: Python & FastAPI
+# =========================
+
+# 编译产生的字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python 虚拟环境
+venv/
+env/
+.venv/
+ENV/
+
+# 环境变量与敏感凭据
+.env
+.env.*
+
+# 测试和覆盖率报告
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 本地 SQLite 数据库
+*.sqlite3
+db.sqlite3
+
+# =========================
+# Frontend: React & Node.js
+# =========================
+
+# Node 依赖包
+node_modules/
+
+# 生产环境构建产物
+/build
+/dist
+
+# npm 或 yarn 的错误日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React 本地环境变量
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# General: OS & Editors
+# =========================
+
+# macOS 系统文件
+.DS_Store
+
+# Windows 系统文件
+Thumbs.db
+
+# 主流编辑器配置
+.vscode/
+.idea/
+*.swp
+
+.example
